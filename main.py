@@ -2,6 +2,7 @@ from utlis import database
 
 
 def menu():
+    database.create_book_table()
     user_input = input("""
         -Enter A to add books, 
         -Enter B to Retrive book information.
